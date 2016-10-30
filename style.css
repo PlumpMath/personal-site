@@ -1,6 +1,16 @@
 h1{
-	color:blue;
+	color:green;
+	text-align: center;
 }
 p{
 	color:red;
+	border: blue dashed;
+	text-align: center;
+	font-size: 50px;
+}
+li:first-child{
+	font-family: Calibri;
+}
+li:nth-child(2) {
+	font-family: Arial;
 }
