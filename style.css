@@ -1,16 +1,39 @@
 h1{
 	color:green;
 	text-align: center;
+	position: relative;
 }
 p{
-	color:red;
+	color:green;
 	border: blue dashed;
 	text-align: center;
 	font-size: 50px;
+	position: relative;
 }
 li:first-child{
 	font-family: Calibri;
 }
 li:nth-child(2) {
 	font-family: Arial;
+}
+nav li{
+	display: inline-block;
+	color: red;
+	font-size: 25px;
+	font-family: Arial;
+	}
+nav {
+  background-color: #333333;
+  width: 100%;
+  top: 0;
+}
+.image {
+background: url(http://www.planwallpaper.com/static/images/Cool-background-random-17506456-1869-1168.jpg) no-repeat center fixed;
+background-size: cover;
+height: 700px;
+}
+ul {
+	position: fixed;
+	color: red;
+	font-size: 30px;
 }
