@@ -1,14 +1,31 @@
+a:link {
+	color:yellow;
+}
+a:visited {
+	color:yellow;
+}
+a:active {
+	color:blue; 
+}
+a:hover {
+	color: white;
+}
 h1{
-	color:green;
+	color:yellow;
+	background-color: black;
 	text-align: center;
 	position: relative;
+	font-size: 100px;
+	margin-top: -25px;
 }
 p{
-	color:green;
+	color:white;
 	border: blue dashed;
 	text-align: center;
 	font-size: 50px;
 	position: relative;
+	float: left;
+	width: 100%;
 }
 li:first-child{
 	font-family: Calibri;
@@ -21,19 +38,31 @@ nav li{
 	color: red;
 	font-size: 25px;
 	font-family: Arial;
+	width: 20%;
+	text-align: center;
 	}
 nav {
   background-color: #333333;
   width: 100%;
-  top: 0;
 }
 .image {
 background: url(http://www.planwallpaper.com/static/images/Cool-background-random-17506456-1869-1168.jpg) no-repeat center fixed;
 background-size: cover;
-height: 700px;
+height: 1500px;
 }
 ul {
-	position: fixed;
+	float: left;
 	color: red;
 	font-size: 30px;
+	width: 100%
+}
+.column {
+  float: left;
+  width: 33.3%;
+}
+.column-inner {
+  padding: 20px;
+}
+img {
+	height: 200px;
 }
